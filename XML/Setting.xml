@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SetXml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <!-- バックアップサーバログ格納先ファイルパスを設定(複数の場合はカンマ区切りで設定) -->
+  <bklogpath>\\192.168.100.217\Freespace\U0347_鍛治\バックアップログバッチ化\214\@Log,\\192.168.100.217\Freespace\U0347_鍛治\バックアップログバッチ化\217\@Log</bklogpath>
+ 
+  <!-- ログファイルエラーメッセージ文字列を設定(複数の場合はカンマ区切りで設定) -->
+  <errmsg>以下のエラーを無視しました</errmsg>
+  
+  <!-- 正常終了時にメッセージを送信するWebHookUrl -->
+  <normalwebhook>https://outlook.office.com/webhook/669237e9-3ce3-4f5e-b667-aadb22acf263@1b82f4f2-e505-41d2-89be-193942872d79/IncomingWebhook/fc5fcc650d63495084d23148abdc585b/48fb4d30-1add-4058-a376-9be1bcb0b36a</normalwebhook>
+  
+  <!-- 異常終了時にメッセージを送信するWebHookUrl -->
+  <errwebhook>https://outlook.office.com/webhook/669237e9-3ce3-4f5e-b667-aadb22acf263@1b82f4f2-e505-41d2-89be-193942872d79/IncomingWebhook/d332e358973e40c382334f4af6fe4e5c/48fb4d30-1add-4058-a376-9be1bcb0b36a</errwebhook>
+</SetXml>
