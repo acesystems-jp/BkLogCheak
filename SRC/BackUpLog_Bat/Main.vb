@@ -3,7 +3,7 @@ Imports System.IO
 Imports System.Console
 Imports System.Text
 Imports System.Xml.Serialization
-
+'
 Public Class Main
     '*XMLファイル取得情報*****************************************************************
     Private Shared LogFdPath As String() = Nothing          'バックアップサーバログファイルパス
