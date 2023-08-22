@@ -5,7 +5,7 @@ Imports System.Text
 Imports System.Xml.Serialization
 '
 Public Class Main
-    '*XMLファイル取得情報*****************************************************************
+    ''*XMLファイル取得情報*****************************************************************
     Private Shared LogFdPath As String() = Nothing          'バックアップサーバログファイルパス
     Private Shared str_ErrVal As String() = Nothing         'バックアップログエラー文字列
     Private Shared str_WebhookNormal As String = ""         '正常時WebhookURL
