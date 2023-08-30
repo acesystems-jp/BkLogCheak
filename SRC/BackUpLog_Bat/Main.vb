@@ -10,7 +10,7 @@ Public Class Main
     Private Shared str_ErrVal As String() = Nothing         'バックアップログエラー文字列
     Private Shared str_WebhookNormal As String = ""         '正常時WebhookURL
     Private Shared str_WebhookErr As String = ""            '異常時WebhookURL
-    '*************************************************************************************
+    '''*************************************************************************************
 
     'Xmlファイル名
     Const XmlFilePath As String = "Setting.xml"
